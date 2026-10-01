@@ -19,7 +19,12 @@ export default function Button({
     <button
       onClick={onClick}
       className={mergeClassNames(
-        'px-4 py-2 text-white rounded bg-blue-500  hover:bg-black focus:bg-red-500 active:bg-green-500',
+        `px-4 py-2 
+        text-gray-500 border rounded-xl
+        bg-white border-gray-200
+        hover:bg-gray-100
+        focus:bg-gray-100 focus:border-gray-300
+        active:bg-gray-200`,
         className,
       )}
     >

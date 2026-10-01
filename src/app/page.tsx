@@ -6,9 +6,10 @@ export default function Home() {
   return (
     <>
       <main className='flex flex-col flex-1 items-center justify-center '>
-        <Button label='Click me' onClick={() => console.log('Button clicked!')}>
-          <textarea>Additional content inside the button</textarea>
-        </Button>
+        <Button
+          label='Click me'
+          onClick={() => console.log('Button clicked!')}
+        ></Button>
       </main>
     </>
   );
